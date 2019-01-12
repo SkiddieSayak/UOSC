@@ -100,9 +100,10 @@ span,p{
 }
 
 #slide-1{
-    background: #4facfe;
+    background-image: url('../assets/img/warpbg.png')
+    /*background: #4facfe;
     background: -webkit-linear-gradient(to right, #4facfe 0%, #00f2fe 100%);  
-    background: linear-gradient(to right, #4facfe 0%, #00f2fe 100%); 
+    background: linear-gradient(to right, #4facfe 0%, #00f2fe 100%); */
 
 }
 
