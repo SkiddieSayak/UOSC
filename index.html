@@ -45,6 +45,18 @@
                                         first-letter>reckon <span class="first-letter">O</span>pen <span class="first-letter">S</span>chool <span class="first-letter">C</span>hallenge</span>
                             <p>The <strong class="diff">Gateway</strong> to showcase your <strong class="diff">Talent</strong></p>
                         </div>
+                        <div id="scene">
+                            <img id="warpbg" class="parallax left top" src="assets/img/">
+                            <img id="star1" class="parallax top" src="assets/img/star1.png">
+                            <img id="star2" class="parallax top" src="assets/img/star2.png">
+                            <img id="star3" class="parallax" src="assets/img/star3.png">
+                            <img id="star4" class="parallax left top" src="assets/img/star4.png">
+                            <img id="star5" class="parallax left" src="assets/img/star5.png">
+                            <img id="planet" class="parallax left top" src="assets/img/planet.png">
+                            <img id="robot" class="parallax top" src="assets/img/robot.png">
+                            <img id="astronaut" class="parallax top" src="assets/img/astronaut.png">
+                            <img id="asteroid" class="parallax" src="assets/img/asteroid.png">
+                        </div>
                     </div>
                 </div>
                 <div class="swiper-slide">
@@ -104,5 +116,25 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.6/js/swiper.min.js"></script>
     <script src="js/navbar.js"></script>
     <script src="js/main.js"></script>
+    <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src="js/jquery.parallaxmouse.js"></script>
+    <script>
+ $(window).parallaxmouse({
+        invert: true,
+        range: 400,
+        elms: [
+            {el: $('#warpbg'), rate: 0.1},
+            {el: $('#star1'), rate: 0.2},
+            {el: $('#star2'), rate: 0.2},
+            {el: $('#star3'), rate: 0.2},
+            {el: $('#star4'), rate: 0.2},
+            {el: $('#star5'), rate: 0.2},
+            {el: $('#planet'), rate: 0.3},
+            {el: $('#robot'), rate: 0.4},
+            {el: $('#astronaut'), rate: 0.48},
+            {el: $('#asteroid'), rate: 0.7}
+        ]
+    });
+</script>
 </body>
 </html>
